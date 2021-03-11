@@ -3,5 +3,5 @@
 
 module.exports = function towelSort (matrix) {
     
-  return matrix.sort();
+  return matrix.flat().sort();
 }
